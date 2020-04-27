@@ -9,7 +9,7 @@ A docker project under **IIEC-COMMUNITY**
     -yum install docker
 * -Launch the docker
         `-systemctl start docker`
- **-either get the image  from the drive-link i am providing[link] (https://drive.google.com/file/d/1CW6HqYM_GnXK5eSiMOfdzpBDWi1INS9h/view?usp=sharingor) or download centos:8 from the dockerhub**
+ **-either get the image  from the drive-link i am providing[link](https://drive.google.com/file/d/1CW6HqYM_GnXK5eSiMOfdzpBDWi1INS9h/view?usp=sharingor). or download centos:8 from the dockerhub**
        `-docker pull centos:8`
   -After successful pulling.
  -run the command below:.
@@ -19,8 +19,8 @@ A docker project under **IIEC-COMMUNITY**
 *          `-yum install git`
          **-After installing git ,you have to clone the XerXes from github.**
 *      `git clone https://github.com/CyberXCodder/XerXes.git`
-*         `cd XerXes`
-*           `gcc xerxes.c -o xerxes`
+       `cd XerXes`
+       `gcc xerxes.c -o xerxes`
        -Now make a script file eg:-a.sh.
        -make your custom command .
 *             `-chmod +x a.sh`
