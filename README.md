@@ -9,7 +9,7 @@ A docker project under **IIEC-COMMUNITY**
     -yum install docker
 * -Launch the docker
         `-systemctl start docker`
- **-either get the image  from the drive-link i am providing[link](https://drive.google.com/file/d/1CW6HqYM_GnXK5eSiMOfdzpBDWi1INS9h/view?usp=sharingor). or download centos:8 from the dockerhub**
+ **-either get the image  from the drive-link i am providing: [gdrive-link](https://drive.google.com/file/d/1CW6HqYM_GnXK5eSiMOfdzpBDWi1INS9h/view?usp=sharingor). or download centos:8 from the dockerhub**
        `-docker pull centos:8`
   -After successful pulling.
  -run the command below:.
@@ -17,15 +17,15 @@ A docker project under **IIEC-COMMUNITY**
        -Now you are in a container,first configure the yum.
         -download  git:.
 *          `-yum install git`
-         **-After installing git ,you have to clone the XerXes from github.**
+**-After installing git ,you have to clone the XerXes from github.**
 *      `git clone https://github.com/CyberXCodder/XerXes.git`
        `cd XerXes`
        `gcc xerxes.c -o xerxes`
-       -Now make a script file eg:-a.sh.
-       -make your custom command .
-*             `-chmod +x a.sh`
-       -Now stop the container and go back to base system. 
- -Now make the container as your new Image.
+ -Now make a script file eg:-a.sh.
+ -make your custom command .
+* `-chmod +x a.sh`
+-Now stop the container and go back to base system. 
+-Now make the container as your new Image.
 *      `docker commit cont1 ddos-centos`
 ### Now your new image is created.
    
