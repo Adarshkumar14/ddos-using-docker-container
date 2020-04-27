@@ -1,23 +1,23 @@
 ## ddos-using-docker-container
 A docker project under **IIEC-COMMUNITY**
  *  I have make a project under IIEC community under the mentorship of The great **Vimal Daga sir**, 
-    The project is a ddos tool,that can check the capacity of your website/your website server that how much traffic it can hold,and if you are running your server on containers then you can increase the server's container relatively so that you dont face the unavailability of your website . 
+    The project is a ddos tool,that can check the capacity of your website/your website server that how much traffic it can hold,and if you are running your server on containers then you can increase the server's container relatively so that you dont face the unavailability of your website .* 
 # Requirements:
 
 *  -this tool is made on the top of redhat:8,so configure it on what os you are using.
  * -first install docker in your system
       -yum install docker
   * -Launch the docker
-        -systemctl start docker
+        `-systemctl start docker`
  # -either get the image  from the drive-link i am providing or
   #  -download centos:8 from the dockerhub
-       -docker pull centos:8
+       `-docker pull centos:8`
    *  -After successful pulling,
    *  -run the command below:
        -docker run -it --name cont1 -v /run/media/root/RHEL-8-0-0-BaseOS-x86_64:/dvd --network net1  centos:8 
    *       -Now you are in a container,first configure the yum then,
-         *-download  git:*
-           $-yum install git.
+   *     -download  git:
+           `-yum install git`
    **      -After installing git ,you have to clone the XerXes from github**
        $-git clone https://github.com/CyberXCodder/XerXes.git
             $-cd XerXes
